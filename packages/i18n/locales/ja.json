@@ -11,6 +11,10 @@
         }
       },
       "navBar": {
+        "controls": {
+          "open": "メニューを開く",
+          "close": "メニューを閉じる"
+        },
         "links": {
           "about": "About",
           "download": "ダウンロード",
@@ -48,7 +52,8 @@
             "introduction": "TypeScriptの導入",
             "transpile": "トランスパイルを用いたTypeScriptの実行",
             "run": "実行ツールを用いたTypeScriptの実行",
-            "runNatively": "TypeScriptをネイティブに実行する"
+            "runNatively": "TypeScriptをネイティブに実行する",
+            "publishingTSPackage": "TypeScriptパッケージを公開する"
           }
         },
         "asynchronousWork": {
@@ -283,6 +288,7 @@
           "docker": "Dockerはコンテナー化に関するプラットフォームです。"
         }
       }
-    }
+    },
+    "logo": "Node.jsロゴ"
   }
 }
